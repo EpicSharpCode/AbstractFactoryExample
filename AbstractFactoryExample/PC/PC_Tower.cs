@@ -12,11 +12,12 @@ namespace AbstractFactoryExample.PC
     {
         PartsFactoryBase partsFactoryBase;
 
-        PCPart motherboard;
-        PCPart ram;
-        PCPart cpu;
-        PCPart gpu;
-        PCPart cooler;
+        IPCPart motherboard;
+        IPCPart ram;
+        IPCPart cpu;
+        IPCPart gpu;
+        IPCPart cooler;
+
         public PC_Tower(PartsFactoryBase _partsFactoryBase)
         {
             partsFactoryBase = _partsFactoryBase;

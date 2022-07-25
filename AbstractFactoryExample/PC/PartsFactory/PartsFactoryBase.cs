@@ -9,14 +9,14 @@ namespace AbstractFactoryExample.PC.PartsFactory
 {
     internal abstract class PartsFactoryBase
     {
-        public abstract PCPart CreateCooler();
+        public abstract IPCPart CreateCooler();
 
-        public abstract PCPart CreateCPU();
+        public abstract IPCPart CreateCPU();
 
-        public abstract PCPart CreateGPU();
+        public abstract IPCPart CreateGPU();
 
-        public abstract PCPart CreateMotherboard();
+        public abstract IPCPart CreateMotherboard();
 
-        public abstract PCPart CreateRAM();
+        public abstract IPCPart CreateRAM();
     }
 }
